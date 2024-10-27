@@ -27,7 +27,7 @@
 			
 			<!-- Hover efekti -->
 			<div class="absolute inset-0 bg-black bg-opacity-80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-				<span class="text-white text-lg">{{ cafe.name }} Kafesinde %{{ cafe.discount }} indirim</span>
+				<span class="text-white text-lg"> {{ cafe.yazi }} </span>
 			</div>
 		</div>
 	</div>
@@ -58,23 +58,23 @@ import { ref } from 'vue';
 const cafes = ref([
 {
 	name: "Cafe 1",
+	yazi: "Cafe 1 kafesinde %10 indirim",
 	image: "https://www.yapikatalogu.com/Files/Project/571/file-3216.jpg",
-	discount: 10,
 },
 {
 	name: "Cafe 2",
+	yazi: "Cafe 2 kafesinde %15 indirim",
 	image: "https://i.pinimg.com/564x/98/ff/1f/98ff1f34046a7e1a0f112a5a1856050e.jpg",
-	discount: 15,
 },
 {
 	name: "Cafe 3",
+	yazi: "Cafe 3 kafesinde %20 indirim",
 	image: "https://www.yapikatalogu.com/Files/Project/571/file-3216.jpg",
-	discount: 20,
 },
 {
-	name: "Cafe 3",
+	name: "Cafe 4",
+	yazi: "Cafe 4 kafesinde %25 indirim",
 	image: "https://www.yapikatalogu.com/Files/Project/571/file-3216.jpg",
-	discount: 20,
 },
 ]);
 </script>
