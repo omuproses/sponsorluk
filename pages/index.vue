@@ -69,7 +69,7 @@ const cafes = ref([
 {
 	name: "Cafe 3",
 	yazi: "Cafe 3 kafesinde %20 indirim",
-	image: "/cafe.jpg",
+	image: "_nuxt/assets/img/cafe.jpg",
 },
 {
 	name: "Cafe 4",
