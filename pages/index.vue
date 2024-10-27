@@ -70,7 +70,7 @@ const cafes = ref([
 {
 	name: "Cafe 3",
 	yazi: "Cafe 3 kafesinde %20 indirim",
-	image: "https://www.yapikatalogu.com/Files/Project/571/file-3216.jpg",
+	image: "~/assets/img/cafe.jpg",
 },
 {
 	name: "Cafe 4",
