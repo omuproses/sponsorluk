@@ -12,7 +12,6 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: '/sponsorluk/',
     buildAssetsDir: 'assets',
 
     head: {
