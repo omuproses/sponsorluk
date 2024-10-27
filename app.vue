@@ -1,7 +1,7 @@
 <template>
 	<div class="flex flex-col justify-center items-center font-poppins m-4">
 		<h1 class="flex flex-col items-center text-xl">
-			<img class="w-32"  src="~/dist/assets/img/logo.png">
+			<img class="w-32"  src="~/assets/img/logo.png">
 			<span class="text-3xl">Ondokuz Mayıs Üniversitesi</span>
 			<span class="text-3xl">Kimya Mühendisliği</span>
 			<span class="text-2xl">Proses Topluluğu</span>
