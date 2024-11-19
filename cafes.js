@@ -1,26 +1,27 @@
 // /data/cafesData.js
-import cafeImage from '~/assets/img/cafe.jpg';
+import bigBabaBurger from '~/assets/img/bigBabaBurger.jpg';
+import caddeKatik from '~/assets/img/caddeKatik.jpg';
+import cafeHome from '~/assets/img/cafeHome.jpg';
 
 export const cafes = [
     {
-        name: "Cafe 1",
-	    yazi: "Cafe 1 kafesinde %10 indirim",
-	    image: "https://www.yapikatalogu.com/Files/Project/571/file-3216.jpg",
+	name: "Big Baba Burger",
+	yazi: "Big Baba Burger'de %15 indirim",
+	image: bigBabaBurger,
     },
     {
-        name: "Cafe 2",
-	    yazi: "Cafe 2 kafesinde %15 indirim",
-	    image: "https://i.pinimg.com/564x/98/ff/1f/98ff1f34046a7e1a0f112a5a1856050e.jpg",
+        name: "Cadde Katık",
+	yazi: "Cadde Katık'ta %10 indirim",
+	image: caddeKatik,
     },
     {
-      	name: "Cafe 3",
-	    yazi: "Cafe 3 kafesinde %20 indirim",
-	    image: cafeImage,
+      	name: "Cafe Home",
+	yazi: "Cafe Home'da kahvelerde %10 indirim\nFiltre kahvede aynı bardağı getirene 2. kahve ücretsiz\nAmericanoda bir alana ikincisi %50 indirimli\nÇay 10 TL",
+	image: cafeHome,
     },
     {
-        name: "Cafe 4",
-	    yazi: "Cafe 4 kafesinde %25 indirim",
-	    image: "https://www.yapikatalogu.com/Files/Project/571/file-3216.jpg",
-    },
+	name: "Küçük Esnaf",
+	yazi: "Küçük Esnaf'ta %10 indirim",
+	image: "",
+    }
   ];
-  
