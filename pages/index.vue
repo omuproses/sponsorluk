@@ -26,9 +26,10 @@
 			</div>
 			
 			<!-- Hover efekti -->
-			<div class="whitespace-pre-line absolute inset-0 bg-black bg-opacity-80 flex items-center justify-center text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-pre-line">
-				<span class="text-white text-lg"> {{ cafe.yazi }} </span>
+			<div class="text-white absolute inset-0 bg-black bg-opacity-80 flex items-center text-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300" 
+				v-html="cafe.yazi.replace(/\n/g, '<br>')">
 			</div>
+		</div>
 		</div>
 	</div>
 	
