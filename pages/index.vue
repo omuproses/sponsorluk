@@ -26,8 +26,14 @@
 			</div>
 			
 			<!-- Hover efekti -->
-			<div class="text-white absolute inset-0 bg-black bg-opacity-80 flex items-center text-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300" 
-				v-html="cafe.yazi.replace(/\n/g, '<br>')">
+			<div 
+    			:class="{
+        			'text-base': cafe.yazi.length <= 50,
+       				'text-sm': cafe.yazi.length > 50 && cafe.yazi.length <= 150,
+        			'text-xs': cafe.yazi.length > 150
+    			}"
+   			class="text-white absolute inset-0 bg-black bg-opacity-80 flex items-center text-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4"
+    			v-html="cafe.yazi.replace(/\n/g, '<br>')">
 			</div>
 		</div>
 		</div>
