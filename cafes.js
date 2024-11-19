@@ -16,7 +16,7 @@ export const cafes = [
     },
     {
       	name: "Cafe Home",
-	yazi: "Cafe Home'da kahvelerde %10 indirim\nFiltre kahvede aynı bardağı getirene 2. kahve ücretsiz\nAmericanoda bir alana ikincisi %50 indirimli\nÇay 10 TL",
+	yazi: "Cafe Home'da\n\n ● Kahvelerde %10 indirim\n\n● Americanoda bir alana ikincisi %50 indirimli\n\n● Çay 10 TL\n\n● Filtre kahvede aynı bardağı getirene 2. kahve ücretsiz",
 	image: cafeHome,
     },
     {
