@@ -12,7 +12,7 @@
 			<div class="text-gray-500 text-xs">Resimlere tıklayarak indirimli kampanyaları görebilirsiniz!</div>
 		</div>
 		
-		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[5px] mt-4">
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[5px] mt-4 select-none">
 			<div
 			v-for="(cafe, index) in cafes"
 			:key="index"
