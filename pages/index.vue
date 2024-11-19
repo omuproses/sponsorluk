@@ -36,7 +36,6 @@
     			v-html="cafe.yazi.replace(/\n/g, '<br>')">
 			</div>
 		</div>
-		</div>
 	</div>
 	
 	<!-- Sosyal Medya -->
